@@ -22,3 +22,12 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.rover-pics{
+  width: 30%;
+  height: 30%;
+}
+
+.rover-form{
+  color: #FFF;
+}

@@ -3,10 +3,9 @@ import React, { Component } from 'react';
 export default class ImageDisplay extends Component {
   render(){
     return(
-      <div>
-        <h1>this.props.something</h1>
-        {/* make sure you get the name of the rover and all the API images */}
-      </div>
+        <img className="rover-pics m-auto mt-3 mb-3" src={this.props.photo} alt="Rover Photos"/>
     )
   }
 }
+
+// data.photos.img_src = image url
